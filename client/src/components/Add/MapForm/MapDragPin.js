@@ -3,9 +3,7 @@ import MapGL, { Marker, NavigationControl } from "react-map-gl";
 
 import Pin from "./Pin";
 
-const TOKEN =
-  "pk.eyJ1IjoiZ2FhZ2FpIiwiYSI6ImNrNWZxb3JkdjBkMmszbG53bDYza2FiYTEifQ.0g0MmVmuInQc8AThqDNlAQ";
-
+const TOKEN = process.env.REACT_APP_MAPBOX_API_KEY;
 const navStyle = {
   position: "absolute",
   top: 0,
