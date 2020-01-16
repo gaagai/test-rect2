@@ -18,7 +18,7 @@
     "concurrently": "^4.0.1",
     "nodemon": "^1.19.4"
   },
-  "keywords": [],
+  "keywords": [file],
   "author": "",
   "license": "ISC"
 }
